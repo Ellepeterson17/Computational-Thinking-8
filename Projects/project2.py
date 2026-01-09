@@ -19,7 +19,7 @@ print ()
 answer2 = input ("Do you prefer A snow, B sun, or C rainy?")
 if answer2 == "A":
     alaska_points += 2
-elif answer2 =="B" or "C":
+if answer2 =="B" or answer2 == "C":
     hawaii_points += 2
 print ()
 print ()
@@ -53,19 +53,19 @@ elif answer5 == "B":
 print ()
 print ()
 answer6 = input ("Do you enjoy planning things?")
-if answer6 == "yes" or "Yes":
+if answer6 == "yes" or answer6 == "Yes":
     new_york_points += 1
-if answer5 == "no" or "No":
+if answer5 == "no" or answer5 == "No":
     alaska_points += 2
     hawaii_points += 1
 print ()
 print ()
 answer7 = input ("Do you enjoy spending time in nature?")
-if answer7 == "Yes" or "yes":
+if answer7 == "Yes" or answer7 == "yes":
     new_york_points -= 1
     hawaii_points += 1
     alaska_points +=1
-elif answer7 == "no" or "No":
+elif answer7 == "no" or answer7 == "No":
     new_york_points += 1
 print ()
 print ()
