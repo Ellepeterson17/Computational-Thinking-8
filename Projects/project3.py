@@ -28,7 +28,7 @@ for i in range(36):
     x1 +=7
     x2 +=15
     x3 += 11
-    x4 += random.randint (10,23)
+    x4 += random.randint (2,23)
 # Salmon is the slowest at 7 speed, can't win
 # Crab is 11 speed faster then the salmon but slower then the dolphin so it can't win 
 # Dolphin is the most likely to win at 15 speed
